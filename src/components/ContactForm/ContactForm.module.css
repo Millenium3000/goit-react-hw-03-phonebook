@@ -1,0 +1,54 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
+
+  border: 2px solid #4a9af5;
+}
+.label {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+
+  color: #000;
+}
+.input {
+  margin-bottom: 25px;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.button {
+  margin: 0 0 15px 15px;
+  padding: 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  cursor: pointer;
+  outline: none;
+  border: inherit;
+  border-radius: 5px;
+  background-color: rgb(44, 154, 243);
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+.button:hover {
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}
+.labelNamber {
+  margin-bottom: 15px;
+  margin-left: 15px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+
+  color: #000;
+}

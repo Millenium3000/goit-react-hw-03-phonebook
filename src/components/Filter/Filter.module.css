@@ -1,0 +1,11 @@
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+
+  text-align: start;
+  color: #000;
+}
+.input {
+  padding: 5px;
+}

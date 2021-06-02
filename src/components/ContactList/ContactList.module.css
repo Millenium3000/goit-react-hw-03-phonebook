@@ -1,0 +1,43 @@
+.list {
+  padding: 0;
+}
+.item {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.textName,
+.textNamber {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.textName {
+  margin-right: 10px;
+}
+.textNamber {
+  margin-right: 15px;
+}
+.button {
+  padding: 2px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  cursor: pointer;
+  outline: none;
+  border: inherit;
+  border-radius: 5px;
+  background-color: rgb(224, 172, 248);
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+.button:hover {
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}
